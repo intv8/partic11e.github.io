@@ -1,4 +1,4 @@
-An enum defining the IntegerEleven recognized types of code-bases. 
+An enum defining the integer11 recognized types of code-bases. 
 
 See also [`CodeBaseType`](types?id=codebasetype).
 

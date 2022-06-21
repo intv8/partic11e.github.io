@@ -1,4 +1,4 @@
-> Takes an exception name, and an optional version string, and returns a URL representing the Exception Explanation location for the version of the exception.
+Takes an exception name, and an optional version string, and returns a URL representing the Exception Explanation location for the version of the exception.
 
 - Defined in `./src/getExceptionsHelpUrl.ts`
 - Importable from:

@@ -1,4 +1,4 @@
-An enum defining the IntegerEleven recognized types of system operations.
+An enum defining the integer11 recognized types of system operations.
 
 See also [`OperationType`](types?id=operationtype).
 

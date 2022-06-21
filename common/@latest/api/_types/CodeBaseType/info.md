@@ -1,4 +1,4 @@
-A type representing the string-literals of IntegerEleven recognized types of code-bases.
+A type representing the string-literals of integer11 recognized types of code-bases.
 
 See also [`CodeBaseEnum`](constants?id=codebaseenum).
 

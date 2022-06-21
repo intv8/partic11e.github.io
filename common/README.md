@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="partic11e logo" height="70" src="static/img/banner.png" />
-  <strong>common</strong>
+  <img alt="partic11e logo" height="70" src="static/img/p11-banner.png" />
+  <strong style="color:#C4C4C4">common</strong>
 </p>
 
 <p align="center">
@@ -9,11 +9,11 @@
 
 <nav class="project-links" align="center">
     <a href="https://github.com/partic11e/common">GitHub</a>
-    <a href="/#/common/api/">API</a>
+    <a href="/#/common/@latest/api/">API</a>
 </nav>
 
 <p align="center">
-  <sub>Built with ❤ by IntegerEleven and <a href="https://github.com/partic11e/common/graphs/contributors">contributors</a></sub>
+  <sub>Built with ❤ by <img src="static/img/i11n-logo.png" alt="i11n" height="16" style="vertical-align: middle;"/> and <a href="https://github.com/partic11e/common/graphs/contributors">contributors</a></sub>
 </p>
 
 <p align="center">

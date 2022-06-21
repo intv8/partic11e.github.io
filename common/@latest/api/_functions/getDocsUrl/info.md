@@ -1,4 +1,4 @@
-> Takes a module name, and an optional version string, and returns a URL representing the documentation location for the version of the module.
+Takes a module name, and an optional version string, and returns a URL representing the documentation location for the version of the module.
 
 - Defined in `./src/getDocsUrl.ts`
 - Importable from:

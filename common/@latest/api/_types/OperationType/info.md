@@ -1,4 +1,4 @@
-A type representing the string-literals of IntegerEleven recognized types of system operations.
+A type representing the string-literals of integer11 recognized types of system operations.
 
 See also [OperationEnum](constants?id=operationenum).
 
