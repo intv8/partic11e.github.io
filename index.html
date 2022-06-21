@@ -82,54 +82,55 @@
   <body>
     <div id="app"></div>
     <script>
-      // const headerPlugin = (hook, vm) => {
-      //   const snapToTab = () => {
-      //     const { hash } = window.location;
-      //     const [, search] = hash.split("?");
-      //     const params = new URLSearchParams(search);
+      const headerPlugin = (hook, vm) => {
+        const snapToTab = () => {
+          const snap = () => {
+            const { hash } = window.location;
+            const [, search] = hash.split("?");
+            const params = new URLSearchParams(search);
+            const id = params.get("id");
+            
+            let index = 0;
+            let selector = id;
 
-      //     const id = params.get("id");
-      //     let index = 0;
-      //     let selector = id;
+            if (!id) return;
 
-      //     if (!id) return;
+            if (/-\d$/.test(id)) {
+              const parts = id.split("-");
+              const indexStr = parts.pop();
+              index = parseInt(indexStr, 10);
+              selector = parts.join("-");
+            }
 
-      //     if (/-\d$/.test(id)) {
-      //       const parts = id.split("-");
-      //       const indexStr = parts.pop();
-      //       index = parseInt(indexStr, 10);
-      //       selector = parts.join("-");
-      //     }
+            //  if a tab
+            const els = document.querySelectorAll(`[data-tab=${selector}]`);
+            const el = els.item(index);
 
-      //     //  if a tab
-      //     const els = document.querySelectorAll(`[data-tab=${selector}]`);
-      //     const el = els.item(index);
+            if (el) {
+              el.scrollIntoView();
+              el.click();
+            } else {
+              const el = document.querySelector(`#${id}`);
+              const tabs = document.querySelectorAll(".docsify-tabs__content");
+              const tabButtons = document.querySelectorAll(".docsify-tabs__tab");
+              for(const tab of tabs) {
+                if (tab.contains(el)) {
+                  tabButtons[i].scrollIntoView();
+                  tabButtons[i].click();
+                  return true;
+                }
+              }
+              el.scrollIntoView();
 
-      //     if (el) {
-      //       el.scrollIntoView();
-      //       el.click();
-      //     } else {
-      //       const el = document.querySelector(`#${id}`);
-      //       const tabs = document.querySelectorAll(".docsify-tabs__content");
-      //       const tabButtons = document.querySelectorAll(".docsify-tabs__tab");
-      //       const tab = tabs.find((tab, i) => {
-      //         if (tab.contains(el)) {
-      //           tabButtons[i].scrollIntoView();
-      //           tabButtons[i].click();
-      //           return true;
-      //         }
-      //       });
+            }
+          };
+          
+          setTimeout(snap, 750);
+          window.onhashchange = snapToTab;
+        };
 
-      //       if (!tab) {
-      //         el.scrollIntoView();
-      //       }
-
-      //     }
-      //     window.onhashchange = snapToTab;
-      //   };
-
-      //   hook.ready(snapToTab);
-      // };
+        hook.ready(snapToTab);
+      };
 
       // 4. Docsify Configuration
       window.$docsify = {
@@ -162,7 +163,8 @@
           sync: false
         },
         loadFooter: true,
-        // plugins: [headerPlugin]
+        plugins: [headerPlugin],
+        notFoundPage: true,
       };
     </script>
 
