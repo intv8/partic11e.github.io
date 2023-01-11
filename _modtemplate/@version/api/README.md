@@ -4,6 +4,10 @@
 | Name | Description |
 |------|-------------|
 
+## Components
+| Name | Description |
+|------|-------------|
+
 ## Constants
 | Name | Description |
 |------|-------------|
@@ -13,6 +17,10 @@
 |------|-------------|
 
 ## Enums
+| Name | Description |
+|------|-------------|
+
+## Exceptions
 | Name | Description |
 |------|-------------|
 

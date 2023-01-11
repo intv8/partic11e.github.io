@@ -1,3 +1,4 @@
-- **partic11e/packageName**
-- [Tutorial](packageSlug/tutorial/ "Tutorial - partic11e/packageName")
-- [API](packageSlug/api/ "API - partic11e/packageName")
+- [partic11e/packageName](./ "partic11e/packageName")
+- **Versions**
+- [@latest](@latest/ "partic11e/packageName@latest")
+- [@packageVersion](@packageVersion/ "partic11e/packageName@packageVersion")

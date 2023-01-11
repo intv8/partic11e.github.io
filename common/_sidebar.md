@@ -1,4 +1,0 @@
-- [partic11e/common](./ "partic11e/common")
-- **Versions**
-- [@latest](@latest/ "partic11e/common@latest")
-- [@0.1.0](@0.1.0/ "partic11e/common@0.1.0")

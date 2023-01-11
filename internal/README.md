@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="partic11e logo" height="70" src="/static/img/p11-banner.png" />
+  <img alt="partic11e logo" height="70" src="static/img/p11-banner.png" />
   
   <!-- TODO: Update package name -->
   <strong>internal</strong>
@@ -10,7 +10,7 @@
   Common internal types and features used by other partic11e packages
 </p>
 
-  <!-- TODO: Update package slug -->
+  <!-- TODO: Update package name -->
 <nav class="project-links" align="center">
     <a href="https://github.com/partic11e/internal">GitHub</a>
     <a href="/#/internal/@latest/api/">API</a>
@@ -35,7 +35,7 @@
 
 ## Features
 
-- internally used types
+- Commonly used types
 - Features for linking to documentation and other help.
 
 ## Installation
@@ -55,4 +55,4 @@ import {...} "../deps.ts";
 
 ## Contributing
 
-Contributions are welcome! Take a look at our [contributing guidelines](/internal/CONTRIBUTING) to get started.
+Contributions are welcome! Take a look at our [contributing guidelines](/common/CONTRIBUTING) to get started.

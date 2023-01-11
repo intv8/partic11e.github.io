@@ -23,4 +23,4 @@ Version: `0.1.0`
 </p>
 
 ## Changelog
-* Initial Release
+<!-- Add changelog of changes since previous version -->

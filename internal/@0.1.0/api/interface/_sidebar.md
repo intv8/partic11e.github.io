@@ -1,0 +1,8 @@
+- [partic11e/internal@0.1.0](../../ "partic11e/internal@0.1.0")
+- **API**
+- [API Home](../ "API - partic11e/internal@0.1.0")
+- **Interfaces**
+- [IInternalExceptionBase](iinternalexceptionbase "IInternalExceptionBase - API - partic11e/internal@0.1.0")
+- [IInternalExceptionInit](iinternalexceptioninit "IInternalExceptionInit - API - partic11e/internal@0.1.0")
+- [IInternalFeatureDocDescriptor](iinternalfeaturedocdescriptor "IInternalFeatureDocDescriptor - API - partic11e/internal@0.1.0")
+- [IInternalPackageDocDescriptor](iinternalpackagedocdescriptor "IInternalPackageDocDescriptor - API - partic11e/internal@0.1.0")
