@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="partic11e logo" height="70" src="/static/img/p11-banner.png" />
+  <img alt="partic11e logo" height="70" src="/static/img/p11-banner.svg" />
   
   <!-- TODO: Update package name -->
   <strong>internal</strong>

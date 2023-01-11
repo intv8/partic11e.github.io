@@ -1,10 +1,17 @@
-# partic11e/internal
-Version: `0.1.0`
+# partic11e/internal v0.1.0
+
+<p align="center">
+  <img alt="partic11e logo" height="70" src="/static/img/p11-banner.svg" />
+  
+  <!-- TODO: Update package name -->
+  <strong>internal v0.1.0</strong>
+</p>
 
 <nav class="project-links" align="center">
     <a href="https://github.com/partic11e/internal/releases/tag/v0.1.0">GitHub</a>
     <a href="/#/internal/@0.1.0/api/">API</a>
 </nav>
+
 <p align="center">
   <sub>Built with ❤ by <img src="/static/img/i11n-logo.png" alt="i11n" height="16" style="vertical-align: middle;"/> and <a href="https://github.com/partic11e/internal/graphs/contributors">contributors</a></sub>
 </p>

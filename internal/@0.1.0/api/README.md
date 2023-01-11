@@ -2,7 +2,7 @@
 
 | Type | Name | Description |
 |------|------|-------------|
-| [Constant](constant/) | [VERSION](constant/version) | A `string` constant specifying the currently used version of the `partic11e/internal` package. |
+| [Constant](constant/) | [VERSION](constant/VERSION) | A `string` constant specifying the currently used version of the `partic11e/internal` package. |
 | [Enum](enum/) | [InternalDocsFeatureType](enum/InternalDocsFeatureType) | Enum describing the type of feature in an [`IInternalFeatureDocDescriptor`](interface/IInternalFeatureDocDescriptor). |
 | [Function](function/) | [getDocsUrl](function/getDocsUrl) | Function accepting a document descriptor for a package or feature returning the URL to the documentation for that package or feature. |
 | [Function](function/) | [getExceptionHelpUrl](function/getExceptionHelpUrl) | Function accepting a partic11e exception returning the URL to the help page and exception explaination for that exception. |
