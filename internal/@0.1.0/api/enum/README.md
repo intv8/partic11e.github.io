@@ -3,4 +3,4 @@
 ### Index
 | Name | Description |
 |------|-------------|
-| [InternalDocsFeatureType](internaldocsfeaturetype) | Enum describing the type of feature in an [`IInternalFeatureDocDescriptor`](../interface/iinternalfeaturedocdescriptor). |
+| [InternalDocsFeatureType](InternalDocsFeatureType) | Enum describing the type of feature in an [`IInternalFeatureDocDescriptor`](../interface/IInternalFeatureDocDescriptor). |

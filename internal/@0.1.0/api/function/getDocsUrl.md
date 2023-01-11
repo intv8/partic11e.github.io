@@ -49,7 +49,7 @@ Accepts a document descriptor for a package or feature and returns the URL to th
 
 | Name | Type | Description |
 |------|------|-------------|
-| `data` | [`InternalDocDescriptor`](../type/internaldocdescriptor) | The document descriptor for the package or feature. |
+| `data` | [`InternalDocDescriptor`](../type/InternalDocDescriptor) | The document descriptor for the package or feature. |
 
 #### Returns
 

@@ -13,7 +13,7 @@
 
 ### Hierarchy  
   * **IInternalPackageDocDescriptor**
-    * [IInternalFeatureDocDescriptor](iinternalfeaturedocdescriptor)
+    * [IInternalFeatureDocDescriptor](IInternalFeatureDocDescriptor)
 
 ### Definition
 

@@ -1,6 +1,6 @@
 ## Enum InternalDocsFeatureType
 
-> Enum describing the type of feature in a [`IInternalFeatureDocDescriptor`](../interface/iinternalfeaturedocdescriptor).
+> Enum describing the type of feature in a [`IInternalFeatureDocDescriptor`](../interface/IInternalFeatureDocDescriptor).
 
 ### Info
 

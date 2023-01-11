@@ -25,7 +25,7 @@ Accepts a partic11e exception and returns the URL to the help page and exception
 
 | Name | Type | Description |
 |------|------|-------------|
-| `data` | [`IInternalExceptionBase`](../interface/iinternalexceptionbase) | The partic11e exception to get the URL to the help page and exception explaination for. |
+| `data` | [`IInternalExceptionBase`](../interface/IInternalExceptionBase) | The partic11e exception to get the URL to the help page and exception explaination for. |
 
 #### Returns
 

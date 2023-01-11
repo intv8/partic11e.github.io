@@ -36,4 +36,4 @@ interface IInternalExceptionBase {
 | `code` | `number` | The exception code for the exception. |
 | `helpUrl` | `string` | The URL referencing the exception explanation of the exception. |
 | `cause` | `Error` \| `IInternalExceptionBase` | The optional inner cause of the exception. |
-| `data` | [`IInternalExceptionInit`](iinternalexceptioninit) | The optional additional initialization data for the exception. |
+| `data` | [`IInternalExceptionInit`](IInternalExceptionInit) | The optional additional initialization data for the exception. |

@@ -12,7 +12,7 @@
   * https://denopkg.com/partic11e/internal/src/types/interfaces.ts
 
 ### Hierarchy
-  * [IInternalPackageDocDescriptor](iinternalpackagedocdescriptor)
+  * [IInternalPackageDocDescriptor](IInternalPackageDocDescriptor)
     * **IInternalFeatureDocDescriptor**
 
 ### Definition
@@ -30,8 +30,8 @@ interface IInternalPackageDocDescriptor extends IInternalPackageDocDescriptor {
 |------|------|-------------|
 | `package`<sup>1</sup> | `string` | The name of the package. |
 | `version`<sup>1</sup> | `string` | The optional version of the package. Defaults to `"latest"` |
-| `featureType` | [`InternalDocsFeatureType`](../enum/internaldocsfeaturetype) | The type of feature. |
+| `featureType` | [`InternalDocsFeatureType`](../enum/InternalDocsFeatureType) | The type of feature. |
 | `feature` | `string` | The name of the feature. |
 
 <small>**Note**</small>  
-<small>1. Property inherited from [IInternalPackageDocDescriptor](iinternalpackagedocdescriptor)</small>
+<small>1. Property inherited from [IInternalPackageDocDescriptor](IInternalPackageDocDescriptor)</small>

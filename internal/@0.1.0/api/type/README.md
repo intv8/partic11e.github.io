@@ -3,4 +3,4 @@
 ### Index
 | Name | Description |
 |------|-------------|
-| [InternalDocDescriptor](internaldocdescriptor) | Type alias for a union of the document descriptor types [`IInternalFeatureDocDescriptor`](../interface/iinternalfeaturedocdescriptor) and [`IInternalPackageDocDescriptor`](../interface/iinternalpackagedocdescriptor). |
+| [InternalDocDescriptor](InternalDocDescriptor) | Type alias for a union of the document descriptor types [`IInternalFeatureDocDescriptor`](../interface/IInternalFeatureDocDescriptor) and [`IInternalPackageDocDescriptor`](../interface/IInternalPackageDocDescriptor). |

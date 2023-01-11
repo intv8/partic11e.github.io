@@ -6,7 +6,7 @@ Version: `0.1.0`
     <a href="/#/internal/@0.1.0/api/">API</a>
 </nav>
 <p align="center">
-  <sub>Built with ❤ by <img src="static/img/i11n-logo.png" alt="i11n" height="16" style="vertical-align: middle;"/> and <a href="https://github.com/partic11e/internal/graphs/contributors">contributors</a></sub>
+  <sub>Built with ❤ by <img src="/static/img/i11n-logo.png" alt="i11n" height="16" style="vertical-align: middle;"/> and <a href="https://github.com/partic11e/internal/graphs/contributors">contributors</a></sub>
 </p>
 
 <p align="center">

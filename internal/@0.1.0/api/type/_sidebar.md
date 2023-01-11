@@ -2,4 +2,4 @@
 - **API**
 - [API Home](../ "API - partic11e/internal@0.1.0")
 - **Types**
-- [InternalDocDescriptor](internaldocdescriptor "InternalDocDescriptor - API - partic11e/internal@0.1.0")
+- [InternalDocDescriptor](InternalDocDescriptor "InternalDocDescriptor - API - partic11e/internal@0.1.0")

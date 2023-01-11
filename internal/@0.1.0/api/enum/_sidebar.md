@@ -2,4 +2,4 @@
 - **API**
 - [API Home](../ "API - partic11e/internal@0.1.0")
 - **Enums**
-- [InternalDocsFeatureType](internaldocsfeaturetype "InternalDocsFeatureType - API - partic11e/internal@0.1.0")
+- [InternalDocsFeatureType](InternalDocsFeatureType "InternalDocsFeatureType - API - partic11e/internal@0.1.0")

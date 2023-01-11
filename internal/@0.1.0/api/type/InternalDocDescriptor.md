@@ -1,7 +1,7 @@
 ## Type InternalDocDescriptor
 
 > Type alias for a union of the document descriptor types
-> [`IInternalFeatureDocDescriptor`](../interface/iinternalfeaturedocdescriptor) and [`IInternalPackageDocDescriptor`](../interface/iinternalpackagedocdescriptor).
+> [`IInternalFeatureDocDescriptor`](../interface/IInternalFeatureDocDescriptor) and [`IInternalPackageDocDescriptor`](../interface/IInternalPackageDocDescriptor).
 
 ### Info
 
@@ -20,5 +20,5 @@ type InternalDocDescriptor = IInternalPackageDocDescriptor | IInternalFeatureDoc
 
 **See also:**
 
-* [`IInternalFeatureDocDescriptor`](../interface/iinternalfeaturedocdescriptor)
-* [`IInternalPackageDocDescriptor`](../interface/iinternalpackagedocdescriptor)
+* [`IInternalFeatureDocDescriptor`](../interface/IInternalFeatureDocDescriptor)
+* [`IInternalPackageDocDescriptor`](../interface/IInternalPackageDocDescriptor)
