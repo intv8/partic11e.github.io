@@ -1,0 +1,11 @@
+- [partic11e/packageName@0.1.0](../ "partic11e/packageName@0.1.0")
+- **API**
+- [API Home](./ "API - partic11e/packageName@0.1.0")
+- [Classes](class "Classes - API - partic11e/packageName")
+- [Constants](constant "Constants - API - partic11e/packageName")
+- [Decorators](decorator "Decorators - API - partic11e/packageName")
+- [Enums](enum "Enums - API - partic11e/packageName")
+- [Exceptions](exception "Exceptions - API - partic11e/packageName")
+- [Functions](function "Functions - API - partic11e/packageName")
+- [Interfaces](interface "Interfaces - API - partic11e/packageName")
+- [Types](types "Types - API - partic11e/packageName")

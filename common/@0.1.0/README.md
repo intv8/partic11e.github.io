@@ -1,9 +1,9 @@
 # partic11e/common
-Version: `1.0.0-alpha.0`
+Version: `0.1.0`
 
 <nav class="project-links" align="center">
-    <a href="https://github.com/partic11e/common/releases/tag/v1.0.0-alpha.0">GitHub</a>
-    <a href="/#/common/@latest/api/">API</a>
+    <a href="https://github.com/partic11e/common/releases/tag/v0.1.0">GitHub</a>
+    <a href="/#/common/@0.1.0/api/">API</a>
 </nav>
 <p align="center">
   <sub>Built with ❤ by <img src="static/img/i11n-logo.png" alt="i11n" height="16" style="vertical-align: middle;"/> and <a href="https://github.com/partic11e/common/graphs/contributors">contributors</a></sub>
@@ -18,7 +18,7 @@ Version: `1.0.0-alpha.0`
     <img alt="GitHub pre-release (latest SemVer)" src="https://img.shields.io/github/release-date-pre/partic11e/common?style=flat-square" />
   </a>
   <a href="https://github.com/partic11e/common/commits">
-    <img alt="GitHub commits since last release (latest SemVer)" src="https://img.shields.io/github/commits-since/partic11e/common/v1.0.0-alpha.0?include_prereleases&style=flat-square" />
+    <img alt="GitHub commits since last release (latest SemVer)" src="https://img.shields.io/github/commits-since/partic11e/common/v0.1.0?include_prereleases&style=flat-square" />
   </a>  
 </p>
 

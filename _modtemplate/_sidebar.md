@@ -1,3 +1,3 @@
-- **partic11e/common**
-- [Tutorial](common/tutorial/ "Tutorial - partic11e/common")
-- [API](common/api/ "API - partic11e/common")
+- **partic11e/packageName**
+- [Tutorial](packageSlug/tutorial/ "Tutorial - partic11e/packageName")
+- [API](packageSlug/api/ "API - partic11e/packageName")

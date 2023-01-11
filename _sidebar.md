@@ -1,3 +1,4 @@
 - [Overview](/?id=main "partic11e - build everything")
 - **Modules**
-- [common](common/)
+- [internal](internal/)
+<!-- - [common](common/) -->

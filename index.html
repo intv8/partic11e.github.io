@@ -132,8 +132,14 @@
         hook.ready(snapToTab);
       };
 
+      const ALIASES = {
+        "/common/@latest/(.*)": "/common/@0.1.0/$1",
+        "/internal/@latest/(.*)": "/internal/@0.1.0/$1",
+      };
+
       // 4. Docsify Configuration
       window.$docsify = {
+        alias: ALIASES,
         name: "partic11e",
         nameLink: "/#/?id=main",
         repo: "https://github.com/partic11e",
