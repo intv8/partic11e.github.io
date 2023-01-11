@@ -47,8 +47,7 @@ const exception: IInternalExceptionBase = {
 const url = getExceptionHelpUrl(exception);
 
 console.log(url);
-// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%exception.
-// m=This is an exception
+// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%20exception.
 ```
 
 ## **Exception with native Error cause**
@@ -65,9 +64,7 @@ const exception: IInternalExceptionBase = {
 const url = getExceptionHelpUrl(exception);
 
 console.log(url);
-// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%20internal%20exception.&c=%7B%22n%22%3A%22Error%22%2C%22m%22%3A%22This%20is%20an%20exception.%22%2C%22l%22%3A%22%22%7D
-// m=This is an exception
-// c={"n":"Error","m":"This is an exception.","l":""}
+// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%20exception.&c=%7B%22n%22%3A%22Error%22%2C%22m%22%3A%22Inner%20exception%22%2C%22l%22%3A%22%22%7D
 ```
 
 ## **Exception with partic11e exception cause**
@@ -89,9 +86,7 @@ const exception: IInternalExceptionBase = {
 const url = getExceptionHelpUrl(exception);
 
 console.log(url);
-// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%20internal%20exception.&c=%7B%22n%22%3A%22Exception%22%2C%22m%22%3A%22Inner%20Exception%22%2C%22l%22%3A%22https%3A%2F%2Fexample.com%2Fbaz%22%7D
-// m=This is an exception
-// c={"n":"Exception","m":"Inner Exception","l":"https://example.com/baz"}
+// https://docs.integer11.org/ee/p11/0x019?m=This%20is%20an%20exception.&c=%7B%22n%22%3A%22Exception%22%2C%22m%22%3A%22Inner%20Exception%22%2C%22l%22%3A%22https%3A%2F%2Fexample.com%2Fbaz%22%7D
 ```
 
 <!-- tabs:end -->

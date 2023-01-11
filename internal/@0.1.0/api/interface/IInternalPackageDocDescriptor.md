@@ -29,4 +29,4 @@ interface IInternalPackageDocDescriptor {
 | Name | Type | Description |
 |------|------|-------------|
 | `package` | `string` | The name of the package. |
-| `version` | `string` | The optional version of the package. Defaults to `"latest"` |
+| `version` | `string` | The optional version of the package. Defaults to `"latest"`. |

@@ -1,6 +1,6 @@
 ## Interface IInternalFeatureDocDescriptor
 
-> Interface describing a documentation descriptor for a package.
+> Interface describing a documentation descriptor for a package feature.
 
 ### Info
 

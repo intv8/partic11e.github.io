@@ -32,8 +32,8 @@ interface IInternalExceptionBase {
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | `string` | The name of the exception. |
-| `message` | `string` | A brief message describing the exception. |
+| `message` | `string` | The brief message describing the exception. |
 | `code` | `number` | The exception code for the exception. |
-| `helpUrl` | `string` | The URL referencing the exception explanation of the exception. |
+| `helpUrl` | `string` | The URL referencing the help page and exception explaination of the exception. |
 | `cause` | `Error` \| `IInternalExceptionBase` | The optional inner cause of the exception. |
 | `data` | [`IInternalExceptionInit`](IInternalExceptionInit) | The optional additional initialization data for the exception. |

@@ -33,7 +33,7 @@ documentation for that package.
 | Name | Type | Description |
 |------|------|-------------|
 | `packageName` | `string` | The name of the package. |
-| `version` | `string` | The optional version of the package. Defaults to `"latest"` |
+| `version` | `string` | The optional version of the package. Defaults to `"latest"`. |
 
 #### Returns
 
@@ -119,7 +119,7 @@ const url = getDocsUrl({
 });
 
 console.log(url);
-// https://partic11e.docs.integer11.org/#/internal/@latest/function/getdocsurl
+// https://partic11e.docs.integer11.org/#/internal/@latest/function/getDocsUrl
 ```
 
 **Specific version feature**
@@ -135,7 +135,7 @@ const url = getDocsUrl({
 });
 
 console.log(url);
-// https://partic11e.docs.integer11.org/#/internal/@0.1.0/function/getdocsurl
+// https://partic11e.docs.integer11.org/#/internal/@0.1.0/function/getDocsUrl
 ```
 
 <!-- tabs:end -->
